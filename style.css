@@ -45,6 +45,6 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(135deg,#000000, #000000); /* Reverse gradient on hover */
+    background: linear-gradient(135deg,#164e63, #002e3f); /* Reverse gradient on hover */
     transform: scale(1.05); /* Slight scaling effect on hover */
 }
