@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <form class="calculator">
+      <div class="form-grp"> 
+        <input type="text">
+      </div>
+      <div class="form-grp">
+        <button type="button" onclick="addval('%')">%</button>
+        <button type="button" onclick="clearint('CE')">CE</button>
+        <button type="button" onclick="allClearint('C')">C</button>
+        <button type="button" onclick="addval('/')">/</button>
+      </div> 
+      <div class="form-grp">
+        <button type="button" onclick="addval('1')">1</button>
+        <button type="button" onclick="addval('2')">2</button>
+        <button type="button" onclick="addval('3')">3</button>
+        <button type="button" onclick="addval('+')">+</button>
+      </div> 
+      <div class="form-grp"> 
+        <button type="button" onclick="addval('4')" >4</button>
+        <button type="button" onclick="addval('5')" >5</button>
+        <button type="button" onclick="addval('6')" >6</button>
+        <button type="button" onclick="addval('-')" >-</button>
+      </div>
+      <div class="form-grp"> 
+        <button type="button" onclick="addval('7')">7</button>
+        <button type="button" onclick="addval('8')">8</button>
+        <button type="button" onclick="addval('9')">9</button>
+        <button type="button" onclick="addval('*')">*</button>
+      </div>
+      <div class="form-grp">
+        <button type="button" onclick="addval('00')">00</button>
+        <button type="button" onclick="addval('0')">0</button>
+        <button type="button" onclick="addval('.')">.</button>
+        <button type="button" onclick="calculate()"  class="eval">=</button>
+      </div>
+    </form>
+  </body>
+</html>
